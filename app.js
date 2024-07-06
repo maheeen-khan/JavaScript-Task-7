@@ -25,3 +25,6 @@ document.write("<br>Last index of <b>'l'</b> is : "+ greet.lastIndexOf("l"));
 
 document.write("<hr>String : "+ str);
 document.write("<br>Character at index <b>'3'</b> is : "+ str.charAt(3));
+
+//Repeat Q1 using string concat() method.
+document.write("<br><hr>"+ firstName.concat(lastName));
