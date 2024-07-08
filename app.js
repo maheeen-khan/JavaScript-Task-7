@@ -57,3 +57,17 @@ document.write("<br>After replacement : "+ city.replace("Hyder" , "Islam"));
 var message = "Ali and Sami are best friends. They play cricket and football together.";
 document.write("<br><hr>" + message);
 document.write("<br>" + message.replaceAll("and", "&"));
+
+
+
+//Write a program that converts a string “472” to a number 472. Display the values & types in your browser.
+
+var strings = "472";
+var no = Number(strings);
+
+document.write("<br><hr>Value : " + strings);
+document.write("<br>Type : "+ typeof strings);
+
+document.write("<br>Value : " + no);
+document.write("<br>Type : "+ typeof no);
+
