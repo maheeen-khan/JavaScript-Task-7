@@ -71,3 +71,11 @@ document.write("<br>Type : "+ typeof strings);
 document.write("<br>Value : " + no);
 document.write("<br>Type : "+ typeof no);
 
+
+
+//Write a program that takes user input. Convert and show the input in capital letters.
+
+var upperC = prompt("Enter your favourite fruit.");
+
+document.write("<br><hr>Upper Case : " + upperC.toUpperCase());
+
