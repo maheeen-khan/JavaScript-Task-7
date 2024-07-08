@@ -45,4 +45,5 @@ document.write("<br><hr>"+ firstName.concat(lastName));
 //Write a program to replace the “Hyder” to “Islam” in the word “Hyderabad” and display the result in your browser.
 
 var city = "Hyderabad";
-document.write(city.replace())
+document.write("<br><hr>City : "+ city);
+document.write("<br>After replacement : "+ city.replace("Hyder" , "Islam"));
