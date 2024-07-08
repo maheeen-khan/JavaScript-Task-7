@@ -42,8 +42,18 @@ document.write("<br>Character at index <b>'3'</b> is : "+ str.charAt(3));
 document.write("<br><hr>"+ firstName.concat(lastName));
 
 
+
+
 //Write a program to replace the “Hyder” to “Islam” in the word “Hyderabad” and display the result in your browser.
 
 var city = "Hyderabad";
 document.write("<br><hr>City : "+ city);
 document.write("<br>After replacement : "+ city.replace("Hyder" , "Islam"));
+
+
+
+//Write a program to replace all occurrences of “and” in the string with “&” and display the result in your browser.
+
+var message = "Ali and Sami are best friends. They play cricket and football together.";
+document.write("<br><hr>" + message);
+document.write("<br>" + message.replaceAll("and", "&"));
