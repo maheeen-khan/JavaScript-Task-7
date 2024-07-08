@@ -40,3 +40,9 @@ document.write("<br>Character at index <b>'3'</b> is : "+ str.charAt(3));
 
 //Repeat Q1 using string concat() method.
 document.write("<br><hr>"+ firstName.concat(lastName));
+
+
+//Write a program to replace the “Hyder” to “Islam” in the word “Hyderabad” and display the result in your browser.
+
+var city = "Hyderabad";
+document.write(city.replace())
