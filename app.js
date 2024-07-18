@@ -79,3 +79,20 @@ var upperC = prompt("Enter your favourite fruit.");
 
 document.write("<br><hr>Upper Case : " + upperC.toUpperCase());
 
+
+//Write a program that takes user input. Convert and show the input in title case.
+
+var result = "";
+for(var i = 0; i < fullName.length; i++){
+
+    if(i === 0){
+        result += fullName[i].toUpperCase();
+    }
+    else if (fullName[i - 1] === " "){
+        result += fullName[i].toUpperCase();
+    }
+    else{
+        result += fullName[i].toLowerCase();
+    }
+}
+document.write("<br>")
