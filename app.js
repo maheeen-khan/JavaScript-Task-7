@@ -95,4 +95,26 @@ for(var i = 0; i < fullName.length; i++){
         result += fullName[i].toLowerCase();
     }
 }
-document.write("<br>")
+document.write("<hr><br>Capital Case : "+ result);
+
+
+//Write a program that converts the variable num to string. Remove the dot to display “3536” display in your browser.
+
+var numm = 35.36;
+var stringNum = numm.toString();
+
+var numResult = "";
+
+document.write("<hr>String : "+ stringNum);
+
+for(var j = 0; j < stringNum.length; j++){
+
+    if(stringNum[j] === "."){
+        continue;
+    }
+    else{
+        numResult += stringNum[j];
+    }
+}
+
+document.write("<br><hr>After removing decimal, String will be : "+ numResult);
